@@ -1,0 +1,20 @@
+#MainWinBorderPane{
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+    -fx-background-image: url("../lose.png");
+}
+#LoseLabel{
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-font-color: #FFFFFF;
+    -fx-border-color: #FFFFFF;
+    -fx-border-style: hidden hidden solid hidden;
+}
+#CenterGridPane{
+    -fx-vgap: 15;
+}
+#PlayAgainButton, #ExitButton{
+    -fx-alignment: center;
+    -fx-font-size: 20px;
+}

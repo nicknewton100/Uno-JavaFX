@@ -1,0 +1,17 @@
+#TitleScreenPane{
+    /*-fx-background-color: #b9b7b9;*/
+    -fx-background-image: url("../uno-game-show.jpeg");
+    -fx-background-size: 1000px 600px;
+}
+#PlayButton, #QuitButton{
+    -fx-pref-height: 80;
+    -fx-pref-width: 150;
+    -fx-font-size: 30px;
+    -fx-alignment: center;
+    -fx-spacing: 50px;
+    -fx-border-radius: 500px;
+}
+#CenterHBox{
+    -fx-spacing: 50px;
+    -fx-alignment: center;
+}

@@ -1,0 +1,64 @@
+#OpponentCardHolderGridPane,#UserCardHolderGridPane{
+    -fx-alignment: center;
+    /*-fx-border-color: black;*/
+}
+#OpponentLabel, #UserLabel{
+    -fx-font-size: 14;
+    -fx-text-alignment: center;
+    -fx-text-fill: white;
+}
+#OpponentCardHolder,#UserCardHolder{
+    -fx-alignment: center;
+    -fx-pref-height: 90px;
+}
+#BottomPane{
+    -fx-alignment: center;
+}
+#MainGameScenePane{
+    /*-fx-background-color: brown;*.
+     */
+    -fx-background-image: url("../gamebackground.jpg");
+    /*-fx-background-size: 1150px 750px;
+    -fx-background-position: -76px;*/
+    -fx-background-size: 1000px 600px;
+}
+#CenterGridPane{
+    -fx-alignment: center;
+}
+#LabelHolderCenter, #DrawAndDiscardHBox{
+    -fx-alignment: center;
+}
+#DrawPile, #DiscardPile{
+    -fx-alignment: center;
+}
+#DiscardPileLabel, #DrawCardLabel{
+    -fx-alignment: center;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+#ColorLabel{
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+}
+#CallUno{
+    -fx-translate-x: -410;
+    -fx-translate-y: 0;
+    -fx-background-radius: 100;
+    -fx-font-size: 20px;
+    -fx-background-color: transparent;
+
+}
+#CallUno:hover{
+    -fx-cursor: hand;
+}
+#CallUnoImageView{
+    -fx-background-color: transparent;
+    -fx-background-radius: 25em;
+}
+#PenaltyText{
+    -fx-translate-x: 355;
+    -fx-translate-y: -95;
+    -fx-text-fill: Black;
+    -fx-font-size: 15px;
+}

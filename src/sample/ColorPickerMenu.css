@@ -1,0 +1,45 @@
+#ColorPickerBorderPane{
+    -fx-alignment: center;
+    //-fx-background-image: url("../pickcolor.png");
+    -fx-border-color: black;
+    -fx-border-width: 4px;
+}
+#ColorPickerLabel{
+    -fx-font-size: 35px;
+    -fx-font-color: #000000;
+    -fx-border-color: #545454;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-padding: 5, 100, 5,100;
+}
+#RedButton{
+    //-fx-background-color: Red;
+    -fx-background-image: url("../colorpick_red.png");
+    -fx-border-color: Black;
+}
+#RedButton:hover{
+    -fx-cursor: Hand;
+}
+#BlueButton{
+    //-fx-background-color: Blue;
+    -fx-background-image: url("../colorpick_blue.png");
+    -fx-border-color: Black;
+}
+#BlueButton:hover{
+    -fx-cursor: Hand;
+}
+#YellowButton{
+    //-fx-background-color: Yellow;
+    -fx-background-image: url("../colorpick_yellow.png");
+    -fx-border-color: Black;
+}
+#YellowButton:hover{
+    -fx-cursor: Hand;
+}
+#GreenButton{
+    //-fx-background-color: Green;
+    -fx-background-image: url("../colorpick_green.png");
+    -fx-border-color: Black;
+}
+#GreenButton:hover{
+    -fx-cursor: Hand;
+}
